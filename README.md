@@ -27,5 +27,4 @@ In the beginning some parameters are asked:
 - define storage size - this is the disk space reserved for caching, currently 100 is good value here
 
 After verifying the values, the script installs required modules and NOIA software. 
-It also edits automatically the settings file (~/.noia-node/node.settings) and starts the service
-
+It also edits automatically the settings file (~/.noia-node/node.settings) and starts the service.
