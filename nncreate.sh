@@ -11,7 +11,7 @@ echo
 echo -n 'Your sudo password (not shown): '
 read -s sudoPsw
 echo
-echo -n 'Your airdrop address: (Give null if none)'
+echo -n 'Your airdrop address (Give null if none): '
 read usrAirdropAddress
 echo -n 'Enable NAT port mapping? (true/false): '
 read usrNatPmp
