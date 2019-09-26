@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # nncreate.sh - script for creating a NOIA node with "one click" 
-# version 190925-1
+# version 190926-1
 
 clear
 
@@ -10,6 +10,7 @@ echo "Let's set up a NOIA node!"
 echo
 echo -n 'Your sudo password (not shown): '
 read -s sudoPsw
+echo
 echo -n 'Your airdrop address: (Give null if none)'
 read usrAirdropAddress
 echo -n 'Enable NAT port mapping? (true/false): '
