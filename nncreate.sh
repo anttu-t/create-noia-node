@@ -70,7 +70,7 @@ echo 2>/dev/null
 echo '**** Creating NOIA service and preparing the node. (Wait 15 sec)...' 2>/dev/null
 sleep 2 2>/dev/null
 cd ~
-NUSER=`users`
+NUSER=`users |cut -f 1 -d " "`
 NHOME=`pwd`
 echo '[Unit]
 Description=noia
