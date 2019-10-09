@@ -43,7 +43,7 @@ echo 2>/dev/null
 echo '**** Ensuring we have correct version of node.js installed...' 2>/dev/null
 sleep 2 2>/dev/null
 sudo apt -y remove nodejs
-curl -sL https://deb.nodesource.com/setup_10.x | bash -
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
 sudo apt -y install nodejs
 
 echo '**** Fetching node-cli package...' 2>/dev/null
